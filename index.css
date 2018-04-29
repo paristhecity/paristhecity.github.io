@@ -140,7 +140,7 @@ b {
   position: absolute;
   width: 300px;
   top: 110px;
-  left: 140px;
+  left: 120px;
   display:block;
   z-index: 99;
 }
@@ -148,7 +148,7 @@ b {
 c {
   position: absolute;
   top: 110px;
-  left: 550px;
+  left: 520px;
   display:block;
 }
 
