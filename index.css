@@ -35,7 +35,7 @@ li a:hover:not(.active) {
   background-color: #E1E0E0;
 }
 
-.active {
+.a.active {
   background-color: #FFF;
 }
 
@@ -133,7 +133,7 @@ p {
 
 }
 
-a.a.active {
+a.a {
   padding: 1em;
 }
 
