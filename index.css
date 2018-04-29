@@ -138,7 +138,8 @@ a {
 
 b {
   position: absolute;
-  width: 300px;
+  width: 350px;
+  height: 120px;
   top: 110px;
   left: 120px;
   display:block;
@@ -147,6 +148,8 @@ b {
 
 c {
   position: absolute;
+  width: 500px;
+  height: 120px;
   top: 110px;
   left: 520px;
   display:block;
@@ -154,18 +157,24 @@ c {
 
 d {
   position: absolute;
+  width: 400px;
+  height: 100px;
   top: 340px;
   left: 25%;
 }
 
 e {
   position: absolute;
+  width: 400px;
+  height: 200px;
   top: 590px;
   left: 25%;
 }
 
 f {
   position: absolute;
+  width: 400px;
+  height: 200px;
   top: 870px;
   left: 25%;
 }
