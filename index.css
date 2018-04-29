@@ -1,0 +1,197 @@
+
+
+header {
+  padding: 1em;
+  text-align: left;
+  background-color: #434343;
+  color: #FFF;
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+ul {
+  background-color: #999999;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+li a:hover:not(.active) {
+  background-color: #E1E0E0;
+}
+
+.active {
+  background-color: #FFF;
+}
+
+.container {
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+  align-items:center;
+}
+
+.container.about {
+  height:500px;
+}
+
+.container.project {
+  height:1200px;
+}
+
+.container.design {
+  height:400px;
+}
+
+.rectangle1 {
+  position: absolute;
+  top: 40px;
+  left: 9%;
+  padding-right: 4em;
+  background-color: #434343;
+  height: 10px;
+  width: 80%;
+}
+
+.rectangle2 {
+  position: absolute;
+  top:10px;
+  left: 43%;
+  width: 14%;
+  text-align: center;
+  padding: 1em;
+  background-color: #980000;
+  color: white;
+}
+
+
+.rectangle3 {
+  position: absolute;
+  top: 50px;
+  padding: 2em;
+  font-family: "Arial", Arial, sans-serif;
+  background-color: #efefef;
+  left: 9%;
+  width: 80%;
+}
+
+.rectangle3.about {
+  height: 300px;
+}
+
+.rectangle3.project {
+  height: 1100px;
+}
+
+.rectangle3.design {
+  height: 300px;
+}
+
+.rectangle4 {
+  height: 15px;
+  position: absolute;
+  left: 0px;
+  text-align: center;
+  padding: 1em;
+  padding-right: 6em;
+  background-color: #434343;
+  color: white;
+}
+
+.rectangle4.good {
+  top:40px;
+}
+
+.rectangle4.others {
+  top:290px;
+}
+
+.rectangle4.tension {
+  top:540px;
+}
+
+.rectangle4.wellbeing {
+  top:810px;
+}
+p {
+  padding-bottom: 600px;
+
+}
+
+a {
+  padding: 1em;
+}
+
+b {
+  position: absolute;
+  width: 300px;
+  top: 110px;
+  left: 1%;
+  display:block;
+  z-index: 99;
+}
+
+c {
+  position: absolute;
+  top: 110px;
+  left: 45%;
+  display:block;
+}
+
+d {
+  position: absolute;
+  top: 340px;
+  left: 25%;
+}
+
+e {
+  position: absolute;
+  top: 590px;
+  left: 25%;
+}
+
+f {
+  position: absolute;
+  top: 870px;
+  left: 25%;
+}
+
+tab {
+  padding-left: 5em;
+}
+
+img {
+  position: absolute;
+  border-style: double;
+}
+
+images {
+  position: relative;
+  height: 100px;
+
+}
+
+
+footer {
+  padding: 1em;
+  text-align: left;
+  background-color: #434343;
+  color: #FFF;
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+}
+
