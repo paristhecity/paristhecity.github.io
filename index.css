@@ -92,20 +92,15 @@ li a:hover:not(.active) {
   width: 80%;
 }
 
-.rectangle3.about {
-  height: 150px;
-}
-
 .rectangle3.project {
   height: 1100px;
 }
 
 .rectangle3.design {
-  height: 300px;
+ 
 }
 
 .rectangle4 {
-  height: 15px;
   position: absolute;
   left: 0px;
   text-align: center;
