@@ -46,15 +46,15 @@ li a:hover:not(.active) {
 }
 
 .container.about {
-  height:300px;
+  height:450px;
 }
 
 .container.project {
-  height:1200px;
+  height:1600px;
 }
 
 .container.design {
-  height:400px;
+  height:11000px;
 }
 
 .rectangle1 {
@@ -93,11 +93,7 @@ li a:hover:not(.active) {
 }
 
 .rectangle3.project {
-  height: 1100px;
-}
-
-.rectangle3.design {
- 
+  height: 1500px;
 }
 
 .rectangle4 {
@@ -115,18 +111,23 @@ li a:hover:not(.active) {
 }
 
 .rectangle4.others {
-  top:290px;
+  top:300px;
 }
 
 .rectangle4.tension {
-  top:540px;
+  top:560px;
 }
 
 .rectangle4.wellbeing {
-  top:810px;
+  top:850px;
 }
+
+.rectangle4.world {
+  top:1150px;
+}
+
 p {
-  padding-bottom: 600px;
+  padding-bottom: 300px;
 
 }
 
@@ -136,20 +137,16 @@ a.a {
 
 a.b {
   position: absolute;
-  width: 350px;
-  height: 120px;
-  top: 110px;
-  left: 120px;
+  top: 130px;
+  left: 7%;
   display:block;
   z-index: 99;
 }
 
 a.c {
   position: absolute;
-  width: 500px;
-  height: 120px;
-  top: 110px;
-  left: 520px;
+  top: 130px;
+  left: 47%;
   display:block;
 }
 
@@ -157,24 +154,32 @@ a.d {
   position: absolute;
   width: 400px;
   height: 100px;
-  top: 340px;
-  left: 25%;
+  top: 370px;
+  left: 20%;
 }
 
 a.e {
   position: absolute;
   width: 400px;
   height: 200px;
-  top: 590px;
-  left: 25%;
+  top:630px;
+  left: 20%;
 }
 
 a.f {
   position: absolute;
   width: 400px;
   height: 200px;
-  top: 870px;
-  left: 25%;
+  top: 920px;
+  left: 20%;
+}
+
+a.g {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  top: 1225px;
+  left: 20%;
 }
 
 tab {
@@ -183,7 +188,14 @@ tab {
 
 img {
   position: absolute;
+  height: 250px;
+  left: 20%;
   border-style: double;
+  z-index:90;
+}
+
+img.wide {
+  height: 200px;
 }
 
 images {
@@ -191,6 +203,8 @@ images {
   height: 100px;
 
 }
+
+
 
 
 footer {
