@@ -1,0 +1,55 @@
+<?php
+   ob_start();
+   session_start();
+?>
+
+<html>
+<head>
+	<title>Shueworld Voting Login</title>
+</head>
+
+<body>
+
+<div>         
+         <?php
+            $msg = '';
+            
+            if (isset($_POST['login']) && !empty($_POST['username']) 
+               && !empty($_POST['password'])) {
+	
+            /* compare username/password, set session variables */			
+               if ($_POST['username'] == 'tutorialspoint' && 
+                  $_POST['password'] == '1234') {
+                  $_SESSION['valid'] = true;
+                  $_SESSION['timeout'] = time();
+                  $_SESSION['username'] = 'tutorialspoint';
+                  
+                  echo 'You have entered valid use name and password';
+               }else {
+                  $msg = 'Wrong username or password';
+               }
+            }
+         ?>
+</div> <!-- /container -->
+      
+<div>      
+    <form role = "form" action = "<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method = "post">
+        <h4><?php echo $msg; ?></h4>
+        <input type = "text" name = "username" placeholder = "tutorialspoint"></br>
+        <input type = "password" name = "password" placeholder = "1234">
+        <button type = "submit" name = "login">Login</button>
+    </form>
+			
+    Click here to clean <a href = "logout.php" tite = "Logout">Session.
+         
+</div> 
+
+<!--
+<form action="action.php" method="post">
+Username: <input type="text" name="username"><br>
+Password: <input type="password" name="password"><br>
+<input type="submit">
+</form>
+-->
+</body>
+</html>
